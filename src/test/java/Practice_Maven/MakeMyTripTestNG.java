@@ -35,7 +35,7 @@ public class MakeMyTripTestNG extends BaseClass{
 				String toCity = JOptionPane.showInputDialog(null,"Please Enter To");
 				wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//input[@placeholder='To']")))).sendKeys(toCity);
 				wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//li[@id='react-autowhatever-1-section-0-item-0']//span[@class='sr_city blackText'][contains(.,'"+toCity+"')]")))).click();
-				wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//div[@aria-label='Mon Jan 30 2023']")))).click();
+				wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//div[@aria-label='Mon Jan 23 2023']")))).click();
 				wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//button[@id='search_button']")))).click();
 				wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//div[@id='busList']/div[1]/div[1]/img[2]")))).click();
 				WebElement Buses = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//span[@class='appendLeft5']"))));
