@@ -1,4 +1,4 @@
-package Home_Module.copy;
+package Home_Module;
 
 import org.testng.annotations.Test;
 
